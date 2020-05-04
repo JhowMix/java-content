@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+  <meta charset="UTF-8">
+  <title>Estoque</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="input-field col s12">
+				<input id="fetch-product" type="search" class="validate">
+				<label for="fetch-product">Pesquisar</label>
+			</div>
+		</div>
+	
+		<div class="row">
+				<a id="new-product" class="waves-effect waves-light btn col s10" href="form.html">Novo</a>				
+				<a id="refresh-table" class="waves-effect waves-light btn col s2 ">Atualizar</a>
+		</div>
+		<table class="products-table">
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Preço</th>
+					<th>Qtd.</th>
+					<th>Validade</th>
+					<th>Opções</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+	
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.5.0.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

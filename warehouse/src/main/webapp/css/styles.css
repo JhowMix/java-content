@@ -1,0 +1,15 @@
+.container {
+    margin-top: 10px;
+}
+
+.former {
+    transform: translateY( 50%);
+}
+
+#delete-product {
+    margin-left: 10px
+}
+
+td, th {
+    text-align: center;
+}
