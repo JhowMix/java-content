@@ -1,3 +1,6 @@
 [submodule "warehouse"]
 	path = warehouse
 	url = https://github.com/JhowMix/warehouse.git
+[submodule "bootstrap-java-webapp"]
+	path = bootstrap-java-webapp
+	url = https://github.com/JhowMix/bootstrap-java-webapp.git
